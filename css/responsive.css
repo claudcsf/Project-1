@@ -1,0 +1,113 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        padding: 1rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-image {
+        width: auto;
+        height: auto;
+    } 
+
+    article {
+        width: 100%;
+        margin: auto;
+    }
+
+    .author {
+        padding: 1rem 0;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .image-round {
+        margin: auto;
+    }
+    
+    .about {
+        border-right: 0;
+        padding: 1rem;
+    }
+    
+    .bio {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #social-sharing {
+        margin: 1rem auto;
+        padding-top: 1rem;
+        width: 100%;
+    }
+}
+
+
+/* Medium devices */
+@media only screen and (min-width: 600px) and (max-width: 958px){
+    
+    article {
+        width: 85%;
+        margin: auto;
+    }
+
+    .author {
+        width: 85%;
+    }
+
+    .about {
+        border-right: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+    
+    .bio {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #social-sharing {
+        margin: 1rem auto;
+        padding-top: 1rem;
+        width: 85%;
+    }
+
+}
+
+@media only screen and (min-width: 958px) and (max-width: 1200px) {
+    
+    article {
+        width: 75%;
+        margin: auto;
+    }
+
+    .author {
+        padding: 1rem 0;
+        width: 75%;
+    }
+
+    .image-round {
+        margin-right: 0;
+    }
+    
+    .about {
+        padding: 1rem;
+        margin: auto 1rem;
+        border-right: 1px dotted #3535352d;
+    }
+    
+    .bio {
+        padding: 1rem;
+    }
+
+    #social-sharing {
+        margin: 1rem auto;
+        padding-top: 1rem;
+        width: 75%;
+    }
+}

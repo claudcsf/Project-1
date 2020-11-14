@@ -1,0 +1,11 @@
+#container {
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "nav nav nav"
+        "header header header"
+        "cards cards cards"
+        "footer footer footer";
+}
